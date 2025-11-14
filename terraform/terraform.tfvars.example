@@ -1,0 +1,4 @@
+aws_region = "us-west-2"
+project_name = "your-project-name"
+kubernetes_version = "1.28"
+key_name = "your-keypair-name"

@@ -1,0 +1,53 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.backup
+
+# SSH Keys and sensitive files
+*.pem
+*.pub
+*keypair*
+*.key
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Images (optional - remove if you want to include diagrams)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Logs
+*.log
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
