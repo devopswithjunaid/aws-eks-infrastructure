@@ -60,11 +60,11 @@ terraform apply
 │   │   ├── vpc/          # VPC and networking
 │   │   ├── iam/          # IAM users and roles
 │   │   ├── eks_cluster/  # EKS cluster
-│   │   ├── node_group/   # EKS worker nodes
-│   │   └── vpn/          # VPN server
+│   │   └── node_group/   # EKS worker nodes
 │   ├── main.tf           # Main configuration
 │   ├── variables.tf      # Input variables
 │   └── outputs.tf        # Output values
+├── vpn/                  # VPN server module
 ├── jenkins-deployment.yaml       # Jenkins K8s deployment
 ├── jenkins-nodeport-service.yaml # Jenkins NodePort service
 ├── nginx-jenkins-proxy.conf      # Nginx proxy configuration

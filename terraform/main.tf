@@ -61,7 +61,7 @@ module "node_group" {
 
 # VPN Module
 module "vpn" {
-  source = "./modules/vpn"
+  source = "../vpn"
   
   project_name     = var.project_name
   vpc_id           = module.vpc.vpc_id
